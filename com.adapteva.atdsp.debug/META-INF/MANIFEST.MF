@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Epiphany Debug port
+Bundle-SymbolicName: com.adapteva.cdt.epiphany.debug;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: atdsp.com.atdsp.debug.Activator
+Bundle-Vendor: Adapteva Inc
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.cdt.debug.gdbjtag.core,
+ org.eclipse.debug.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.cdt.debug.gdbjtag.core.jtagdevice,
+ org.eclipse.cdt.launch.ui

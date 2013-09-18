@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.cdt.debug.gdbjtag.core.JTagDevice">
+      <device
+            class="atdsp.com.atdsp.debug.AtdspGdbServer"
+            id="atdsp.com.atdsp.debug.atdspGdbServer"
+            name="Epiphany HW debug port">
+      </device>
+   </extension>
+   <extension
+         point="org.eclipse.cdt.debug.gdbjtag.core.JTagDevice">
+      <device
+            class="atdsp.com.atdsp.debug.AtdspGdbSimulator"
+            id="atdsp.com.atdsp.debug.atdspGdbSimulator"
+            name="Epiphany functional one core simulator">
+      </device>
+   </extension>
+
+</plugin>

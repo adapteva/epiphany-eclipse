@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Epiphany Project
+Bundle-SymbolicName: com.adapteva.cdt.epiphany.project;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.adapteva.cdt.epiphany.project.Activator
+Bundle-Vendor: Adapteva Inc
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.cdt.core,
+ org.eclipse.core.resources,
+ org.eclipse.cdt.managedbuilder.core,
+ org.eclipse.cdt.managedbuilder.ui;bundle-version="8.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.cdt.build.core.scannerconfig,
+ org.eclipse.cdt.build.internal.core.scannerconfig2,
+ org.eclipse.cdt.make.core.scannerconfig,
+ org.eclipse.cdt.managedbuilder.core,
+ org.eclipse.cdt.managedbuilder.envvar,
+ org.eclipse.cdt.managedbuilder.makegen,
+ org.eclipse.cdt.managedbuilder.templateengine,
+ org.eclipse.cdt.managedbuilder.templateengine.processes,
+ org.eclipse.cdt.ui.templateengine,
+ org.eclipse.core.resources

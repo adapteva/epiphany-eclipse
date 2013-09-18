@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mclaunch
+Bundle-SymbolicName: com.adapteva.cdt.mclaunch; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.adapteva.cdt.mclaunch.Activator
+Bundle-Vendor: ADAPTEVA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.debug.ui,
+ org.eclipse.cdt;bundle-version="8.0.0",
+ org.eclipse.cdt.debug.core;bundle-version="7.1.0",
+ org.eclipse.cdt.core;bundle-version="5.3.0",
+ org.eclipse.cdt.launch;bundle-version="7.0.0",
+ org.eclipse.cdt.debug.gdbjtag.ui;bundle-version="7.0.0",
+ org.eclipse.cdt.debug.gdbjtag;bundle-version="7.0.0",
+ org.eclipse.cdt.debug.gdbjtag.core;bundle-version="7.0.0",
+ org.eclipse.cdt.debug.mi.core;bundle-version="7.1.0",
+ org.eclipse.ui.console;bundle-version="3.5.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.variables,
+ org.eclipse.ui.model,
+ org.eclipse.ui.views.navigator
